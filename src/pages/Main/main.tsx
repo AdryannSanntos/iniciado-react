@@ -1,12 +1,9 @@
-import {
-  Button
-} from './css';
+import { Header } from './../../components/Header/header';
 
 export function Main(){
   return (
     <div>
-      <h1>Main</h1>
-      <Button>Button</Button>
+      <Header/>
     </div>
   );
 }

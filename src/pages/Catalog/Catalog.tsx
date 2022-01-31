@@ -1,3 +1,10 @@
+import { Header } from './../../components/Header/header';
+
 export function Catalog(){
-  return <h1>Catalogo</h1>
+  return (
+    <div>
+      <Header/>
+      <h1>CATALOGO</h1>
+    </div>
+  );
 }

@@ -1,3 +1,10 @@
+import { Header } from './../../components/Header/header';
+
 export function Cart(){
-  return <h1>Your Cart</h1>
+  return (
+    <div>
+      <Header/>
+      <h1>CARRINHO</h1>
+    </div>
+  );
 }
