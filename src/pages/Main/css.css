@@ -1,0 +1,10 @@
+.submit{
+  width: 300px;
+  border: 1px solid #eeeeee;
+  background-color: transparent;
+  color: #eeeeee;
+  padding: 5px;
+  margin: 15px 20px;
+  cursor: pointer;
+  outline: none;
+}

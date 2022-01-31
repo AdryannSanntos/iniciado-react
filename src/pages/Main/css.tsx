@@ -10,6 +10,11 @@ export const Flex = styled.div`
   justify-content: center;
 `;
 
+export const Column = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const MainContainer = styled.main`
   display: flex;
   align-items: center;
@@ -51,4 +56,15 @@ export const A = styled.a`
   text-decoration: none;
   font-size: 15.5px;
   color: #eeeeee;
+`;
+
+export const Input = styled.input`
+  width: 300px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1.5px solid #eeeeee;
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+  color: white
 `;
